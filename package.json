@@ -34,6 +34,7 @@
     "hubot-vtr-scripts": "^1.0.5",
     "jsdom": "^0.10.6",
     "moment": "^2.6.0",
+    "pypi": "^0.1.2",
     "underscore": "^1.6.0"
   },
   "engines": {
