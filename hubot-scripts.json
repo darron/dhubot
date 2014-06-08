@@ -1,1 +1,1 @@
-["redis-brain.coffee", "shipit.coffee", "aws.coffee", "heroku-status.coffee", "github-status.coffee"]
+["redis-brain.coffee", "shipit.coffee", "aws.coffee", "heroku-status.coffee", "github-status.coffee", "bitcoin.coffee"]
