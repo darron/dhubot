@@ -10,16 +10,11 @@
 # Commands:
 #   hubot chef status
 #
-inspect = require('util').inspect
 
 steward_url = process.env.HUBOT_STEWARD_URL
 
 module.exports = (robot) ->
-
-  logger = robot.logger
-  logger.debug(inspect steward_url)
-
   robot.respond /chef status/i, (msg) ->
-    msg.http(steward_url)
-      .get() (err, res, body) ->
-        msg.send body
+    robot.http(steward_url)
+        .get() (err, res, body) ->
+          msg.send "Got back #{body}"
