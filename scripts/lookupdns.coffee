@@ -1,4 +1,4 @@
-var checkdns = require('checkdns');
+checkdns = require('checkdns');
 
 module.exports = (robot) ->
   robot.respond /lookup (.*)$/i, (msg) ->
