@@ -17,4 +17,4 @@ module.exports = (robot) ->
   robot.respond /chef status/i, (msg) ->
     robot.http(steward_url)
         .get() (err, res, body) ->
-          msg.send "Got back #{body}"
+          msg.send "#{body}"
