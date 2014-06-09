@@ -11,9 +11,9 @@
 #   hubot chef status
 #
 
-module.exports = (robot) ->
-
 steward_url = process.env.HUBOT_STEWARD_URL
+
+module.exports = (robot) ->
 
   robot.respond /chef status/i, (msg) ->
     msg.http(steward_url)
