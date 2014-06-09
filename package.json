@@ -23,6 +23,7 @@
   "dependencies": {
     "aws2js": "^0.8.3",
     "big-integer": "^1.2.10",
+    "checkdns": "0.0.3",
     "cheerio": "^0.16.0",
     "clark": "0.0.6",
     "date-utils": "^1.2.15",
