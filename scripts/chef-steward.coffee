@@ -22,4 +22,4 @@ module.exports = (robot) ->
   robot.respond /chef status/i, (msg) ->
     msg.http(steward_url)
       .get() (err, res, body) ->
-        res.end body
+        msg.send body
